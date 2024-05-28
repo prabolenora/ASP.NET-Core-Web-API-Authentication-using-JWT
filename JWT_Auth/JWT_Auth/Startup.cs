@@ -1,3 +1,4 @@
+using JWT_Auth.Helpers;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
@@ -6,10 +7,12 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
+using Microsoft.IdentityModel.Tokens;
 using Microsoft.OpenApi.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Text;
 using System.Threading.Tasks;
 
 namespace JWT_Auth
@@ -26,7 +29,20 @@ namespace JWT_Auth
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+            services.AddAuthentication("JWTAuth")
+                .AddJwtBearer("JWTAuth",options => {
+                    var keyBytes = Encoding.UTF8.GetBytes(Constants.Secret);
 
+                    var key = new SymmetricSecurityKey(keyBytes);
+
+                    options.TokenValidationParameters = new TokenValidationParameters()
+                    {
+                        ValidIssuer = Constants.Issuer,
+                        ValidAudience = Constants.Audience,
+                        IssuerSigningKey = key
+                    };
+
+                });
             services.AddControllers();
             services.AddSwaggerGen(c =>
             {
@@ -47,6 +63,8 @@ namespace JWT_Auth
             app.UseHttpsRedirection();
 
             app.UseRouting();
+
+            app.UseAuthentication();
 
             app.UseAuthorization();
 

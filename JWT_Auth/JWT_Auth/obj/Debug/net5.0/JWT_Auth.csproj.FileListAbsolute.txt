@@ -31,3 +31,11 @@ D:\Learning\ASP.NET-Core-Web-API-Authentication-using-JWT\JWT_Auth\JWT_Auth\obj\
 D:\Learning\ASP.NET-Core-Web-API-Authentication-using-JWT\JWT_Auth\JWT_Auth\obj\Debug\net5.0\JWT_Auth.pdb
 D:\Learning\ASP.NET-Core-Web-API-Authentication-using-JWT\JWT_Auth\JWT_Auth\obj\Debug\net5.0\JWT_Auth.genruntimeconfig.cache
 D:\Learning\ASP.NET-Core-Web-API-Authentication-using-JWT\JWT_Auth\JWT_Auth\obj\Debug\net5.0\ref\JWT_Auth.dll
+D:\Learning\ASP.NET-Core-Web-API-Authentication-using-JWT\JWT_Auth\JWT_Auth\obj\Debug\net5.0\JWT_Auth.sourcelink.json
+D:\Learning\ASP.NET-Core-Web-API-Authentication-using-JWT\JWT_Auth\JWT_Auth\bin\Debug\net5.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+D:\Learning\ASP.NET-Core-Web-API-Authentication-using-JWT\JWT_Auth\JWT_Auth\bin\Debug\net5.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\Learning\ASP.NET-Core-Web-API-Authentication-using-JWT\JWT_Auth\JWT_Auth\bin\Debug\net5.0\Microsoft.IdentityModel.Logging.dll
+D:\Learning\ASP.NET-Core-Web-API-Authentication-using-JWT\JWT_Auth\JWT_Auth\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.dll
+D:\Learning\ASP.NET-Core-Web-API-Authentication-using-JWT\JWT_Auth\JWT_Auth\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\Learning\ASP.NET-Core-Web-API-Authentication-using-JWT\JWT_Auth\JWT_Auth\bin\Debug\net5.0\Microsoft.IdentityModel.Tokens.dll
+D:\Learning\ASP.NET-Core-Web-API-Authentication-using-JWT\JWT_Auth\JWT_Auth\bin\Debug\net5.0\System.IdentityModel.Tokens.Jwt.dll
