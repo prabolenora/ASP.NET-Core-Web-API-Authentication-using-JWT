@@ -31,6 +31,7 @@ namespace JWT_Auth.Controllers
         }
 
         [HttpGet("authenticate")]
+        //[ApiExplorerSettings(IgnoreApi = true)]
         public IActionResult Authenticate()
         {
             //Generate the JWT token and return
