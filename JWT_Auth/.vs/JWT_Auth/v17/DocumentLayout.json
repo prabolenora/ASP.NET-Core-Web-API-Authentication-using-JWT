@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "D:\\Learning\\ASP.NET-Core-Web-API-Authentication-using-JWT\\JWT_Auth\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{506B5220-2991-40C9-9134-199685F1530C}|JWT_Auth\\JWT_Auth.csproj|d:\\learning\\asp.net-core-web-api-authentication-using-jwt\\jwt_auth\\jwt_auth\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{506B5220-2991-40C9-9134-199685F1530C}|JWT_Auth\\JWT_Auth.csproj|solutionrelative:jwt_auth\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{506B5220-2991-40C9-9134-199685F1530C}|JWT_Auth\\JWT_Auth.csproj|d:\\learning\\asp.net-core-web-api-authentication-using-jwt\\jwt_auth\\jwt_auth\\helpers\\constants.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{506B5220-2991-40C9-9134-199685F1530C}|JWT_Auth\\JWT_Auth.csproj|solutionrelative:jwt_auth\\helpers\\constants.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{506B5220-2991-40C9-9134-199685F1530C}|JWT_Auth\\JWT_Auth.csproj|d:\\learning\\asp.net-core-web-api-authentication-using-jwt\\jwt_auth\\jwt_auth\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{506B5220-2991-40C9-9134-199685F1530C}|JWT_Auth\\JWT_Auth.csproj|solutionrelative:jwt_auth\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{506B5220-2991-40C9-9134-199685F1530C}|JWT_Auth\\JWT_Auth.csproj|d:\\learning\\asp.net-core-web-api-authentication-using-jwt\\jwt_auth\\jwt_auth\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -26,17 +26,17 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Constants.cs",
               "DocumentMoniker": "D:\\Learning\\ASP.NET-Core-Web-API-Authentication-using-JWT\\JWT_Auth\\JWT_Auth\\Helpers\\Constants.cs",
               "RelativeDocumentMoniker": "JWT_Auth\\Helpers\\Constants.cs",
               "ToolTip": "D:\\Learning\\ASP.NET-Core-Web-API-Authentication-using-JWT\\JWT_Auth\\JWT_Auth\\Helpers\\Constants.cs",
               "RelativeToolTip": "JWT_Auth\\Helpers\\Constants.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAyAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAABqAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-28T04:43:17.4Z",
               "EditorCaption": ""
@@ -63,12 +63,11 @@
               "RelativeToolTip": "JWT_Auth\\Startup.cs",
               "ViewState": "AQIAABsAAAAAAAAAAAAYwCAAAAA0AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-27T11:29:32.994Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-27T11:29:32.994Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "WeatherForecastController.cs",
               "DocumentMoniker": "D:\\Learning\\ASP.NET-Core-Web-API-Authentication-using-JWT\\JWT_Auth\\JWT_Auth\\Controllers\\WeatherForecastController.cs",
               "RelativeDocumentMoniker": "JWT_Auth\\Controllers\\WeatherForecastController.cs",
