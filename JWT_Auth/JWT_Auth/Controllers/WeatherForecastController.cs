@@ -8,6 +8,7 @@ using System;
 using System.Collections.Generic;
 using System.IdentityModel.Tokens.Jwt;
 using System.Linq;
+using System.Reflection.Metadata;
 using System.Security.Claims;
 using System.Text;
 using System.Threading.Tasks;
@@ -32,34 +33,43 @@ namespace JWT_Auth.Controllers
 
         [HttpGet("authenticate")]
         //[ApiExplorerSettings(IgnoreApi = true)]
-        public IActionResult Authenticate()
+        public IActionResult Authenticate(string username, string password)
         {
-            //Generate the JWT token and return
-
-            // Claims
-            var claims = new[]
+            if (username == Constants.username && password == Constants.password)
             {
+
+
+                //Generate the JWT token and return
+
+                // Claims
+                var claims = new[]
+                {
                 new Claim("Full Name", "Hasitha Mihiran"), // first add claims. use namespace using System.Security.Claims;
                 new Claim(JwtRegisteredClaimNames.Sub,"user_id")
             };
 
-            var keyBytes = Encoding.UTF8.GetBytes(Constants.Secret);
+                var keyBytes = Encoding.UTF8.GetBytes(Constants.Secret);
 
-            var key = new SymmetricSecurityKey(keyBytes);
+                var key = new SymmetricSecurityKey(keyBytes);
 
-            var signingCredentials = new SigningCredentials(key, SecurityAlgorithms.HmacSha256);
+                var signingCredentials = new SigningCredentials(key, SecurityAlgorithms.HmacSha256);
 
-            var token = new JwtSecurityToken(
-                Constants.Audience,
-                Constants.Issuer,
-                claims,
-                notBefore:DateTime.Now,
-                expires:DateTime.Now.AddHours(1),
-                signingCredentials);
+                var token = new JwtSecurityToken(
+                    Constants.Audience,
+                    Constants.Issuer,
+                    claims,
+                    notBefore: DateTime.Now,
+                    expires: DateTime.Now.AddHours(1),
+                    signingCredentials);
 
-            var tokenString = new JwtSecurityTokenHandler().WriteToken(token);
+                var tokenString = new JwtSecurityTokenHandler().WriteToken(token);
 
-            return Ok(new {accessToken = tokenString});
+                return Ok(new { accessToken = tokenString });
+            }
+            else
+            {                
+                return Unauthorized();
+            }
         }
 
         [HttpGet]
