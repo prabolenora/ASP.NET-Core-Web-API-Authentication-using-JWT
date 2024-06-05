@@ -31,11 +31,11 @@ namespace JWT_Auth.Controllers
             _logger = logger;
         }
 
-        [HttpGet("authenticate")]
+        [HttpPost("authenticate")]
         //[ApiExplorerSettings(IgnoreApi = true)]
-        public IActionResult Authenticate(string username, string password)
+        public IActionResult Authenticate([FromBody] User user)
         {
-            if (username == Constants.username && password == Constants.password)
+            if (user.username == Constants.username && user.password == Constants.password)
             {
 
 
