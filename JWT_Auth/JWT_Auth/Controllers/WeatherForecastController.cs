@@ -31,9 +31,9 @@ namespace JWT_Auth.Controllers
             _logger = logger;
         }
 
-        [HttpPost("authenticate")]
+        [HttpPost("generateToken")]
         //[ApiExplorerSettings(IgnoreApi = true)]
-        public IActionResult Authenticate([FromBody] User user)
+        public IActionResult GenerateToken([FromBody] User user)
         {
             if (user.username == Constants.username && user.password == Constants.password)
             {
