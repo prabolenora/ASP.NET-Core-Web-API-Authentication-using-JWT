@@ -3,16 +3,16 @@
   "WorkspaceRootPath": "D:\\Learning\\ASP.NET-Core-Web-API-Authentication-using-JWT\\JWT_Auth\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{506B5220-2991-40C9-9134-199685F1530C}|JWT_Auth\\JWT_Auth.csproj|d:\\learning\\asp.net-core-web-api-authentication-using-jwt\\jwt_auth\\jwt_auth\\helpers\\constants.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{506B5220-2991-40C9-9134-199685F1530C}|JWT_Auth\\JWT_Auth.csproj|solutionrelative:jwt_auth\\helpers\\constants.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{506B5220-2991-40C9-9134-199685F1530C}|JWT_Auth\\JWT_Auth.csproj|d:\\learning\\asp.net-core-web-api-authentication-using-jwt\\jwt_auth\\jwt_auth\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{506B5220-2991-40C9-9134-199685F1530C}|JWT_Auth\\JWT_Auth.csproj|solutionrelative:jwt_auth\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{506B5220-2991-40C9-9134-199685F1530C}|JWT_Auth\\JWT_Auth.csproj|d:\\learning\\asp.net-core-web-api-authentication-using-jwt\\jwt_auth\\jwt_auth\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{506B5220-2991-40C9-9134-199685F1530C}|JWT_Auth\\JWT_Auth.csproj|solutionrelative:jwt_auth\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{506B5220-2991-40C9-9134-199685F1530C}|JWT_Auth\\JWT_Auth.csproj|d:\\learning\\asp.net-core-web-api-authentication-using-jwt\\jwt_auth\\jwt_auth\\helpers\\constants.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{506B5220-2991-40C9-9134-199685F1530C}|JWT_Auth\\JWT_Auth.csproj|solutionrelative:jwt_auth\\helpers\\constants.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{506B5220-2991-40C9-9134-199685F1530C}|JWT_Auth\\JWT_Auth.csproj|d:\\learning\\asp.net-core-web-api-authentication-using-jwt\\jwt_auth\\jwt_auth\\jwt_auth.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
@@ -26,11 +26,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "Constants.cs",
               "DocumentMoniker": "D:\\Learning\\ASP.NET-Core-Web-API-Authentication-using-JWT\\JWT_Auth\\JWT_Auth\\Helpers\\Constants.cs",
               "RelativeDocumentMoniker": "JWT_Auth\\Helpers\\Constants.cs",
@@ -55,7 +55,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "Startup.cs",
               "DocumentMoniker": "D:\\Learning\\ASP.NET-Core-Web-API-Authentication-using-JWT\\JWT_Auth\\JWT_Auth\\Startup.cs",
               "RelativeDocumentMoniker": "JWT_Auth\\Startup.cs",
@@ -63,17 +63,18 @@
               "RelativeToolTip": "JWT_Auth\\Startup.cs",
               "ViewState": "AQIAABsAAAAAAAAAAAAYwCAAAAA0AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-27T11:29:32.994Z"
+              "WhenOpened": "2024-05-27T11:29:32.994Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "WeatherForecastController.cs",
               "DocumentMoniker": "D:\\Learning\\ASP.NET-Core-Web-API-Authentication-using-JWT\\JWT_Auth\\JWT_Auth\\Controllers\\WeatherForecastController.cs",
               "RelativeDocumentMoniker": "JWT_Auth\\Controllers\\WeatherForecastController.cs",
               "ToolTip": "D:\\Learning\\ASP.NET-Core-Web-API-Authentication-using-JWT\\JWT_Auth\\JWT_Auth\\Controllers\\WeatherForecastController.cs",
               "RelativeToolTip": "JWT_Auth\\Controllers\\WeatherForecastController.cs",
-              "ViewState": "AQIAACgAAAAAAAAAAAAAACUAAABRAAAA",
+              "ViewState": "AQIAACIAAAAAAAAAAAAuwC8AAAAZAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-27T11:23:56.291Z",
               "EditorCaption": ""

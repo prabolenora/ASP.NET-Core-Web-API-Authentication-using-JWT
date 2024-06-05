@@ -45,7 +45,7 @@ namespace JWT_Auth.Controllers
                 var claims = new[]
                 {
                 new Claim("Full Name", "Hasitha Mihiran"), // first add claims. use namespace using System.Security.Claims;
-                new Claim(JwtRegisteredClaimNames.Sub,"user_id")
+                new Claim(JwtRegisteredClaimNames.Sub,"JWT_Auth_API")
             };
 
                 var keyBytes = Encoding.UTF8.GetBytes(Constants.Secret);
